@@ -79,8 +79,9 @@ if (isset($_GET['aksi']) && $_GET['aksi'] == 'hapus') {
                         <input type="text" class="form-control" name="no_hp" id="inputAlamat" placeholder="Nomor Handphone" value="<?php echo $no_hp ?>">
                     </div>
                     <div class="form-group">
-                        <label for="inputRM" class="form-label fw-bold">Nomor RM</label>
-                        <input type="text" class="form-control" name="no_rm" id="inputAlamat" placeholder="Nomor RM" value="<?php echo $no_rm ?>">
+                        <label for="inputRM" class="form-label fw-bold">
+                            Nomor RM akan otomatis tergenerate setelah pendaftaran.
+                        </label>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="form-submit-btn" name="simpan">Simpan</button>
